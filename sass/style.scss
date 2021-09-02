@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.hr1{
+    border-top: 9px solid orange;
+    width: 40%;
+    background: transparent;
+}  
+
+.img-out{
+    width: 200px;
+    border: 3px solid orange;
+    border-radius: 50%;
+    
+}
+
+body{
+    
+
+    .container1{
+                background-image: url("image/bglip.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+
+                
+                
+            header{
+                    background-image: url("image/bglip.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 100vh;
+                    
+// navigation starts here
+                    nav{
+                        background: transparent;
+                        .container{
+                            background: transparent;
+                            .navbutt{
+                                margin-left: auto;
+                                background-color: black;
+                                i{
+                                    color: orange;
+                                }
+                            }
+                
+                            .navbar-collapse{
+                                   
+                                    
+                                    background: transparent;
+                                ul{
+                                    background: transparent;
+                                    margin: auto;
+                                    li{
+                                        width: 50%;
+                                        margin-left: auto;
+                                        a{
+                                            text-align: right;
+                                            width: 100%;
+                                            color: orange;
+                                            padding: 10px 25px;
+                                            font-size: 20px;
+                                            background-color: rgba(0,0,0,0.4);
+                                            &:hover{
+                                                background-color: rgba(255,255,255,0.4);
+                                                color: black;
+                                            }
+                
+                                        }
+                                    }
+                                }
+                                    
+                                
+                            }
+                        }
+                    }
+
+//navigation ends here
+
+
+
+//profile starts
+                .pro{  
+                    .profile{
+                        margin-top: 30vh;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .profile-sec{
+                        
+                            .imag{
+                                text-align: center;
+                                img{
+                                    width: 200px;
+                                    height: 200px;
+                                    border-radius: 50%;
+                                }
+            
+                            }
+                            .name{
+                                text-align: center;
+                                color: white;
+                                h2{
+                                    text-shadow: 1.5px 1.5px 3px orange;
+                                    color: white;
+                                }
+                                p{
+                                    text-shadow: 0 0 2px 2px white;
+
+                                }
+                            }
+                        }
+                    }
+           
+                }
+
+
+
+                    .social{
+                        .links{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            a{
+                                
+                                .fab{
+                                    color: blanchedalmond;
+                                    padding: 10px;
+                                    transition: .2s;
+                                    &:hover{
+                                        transform: scale(1.05);
+                                        color: orange;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .arrowdown{
+                        margin-top: 180px;
+                        a{
+                                text-decoration: none;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                
+                            
+                            i{
+                                background-color: orange;
+                                padding: 10px;
+                                color: black;
+                                border-radius: 50%;
+
+                                position: relative;
+
+                                animation: bmove 2s 5;
+                                
+
+                                &:hover{
+                                    animation-play-state: paused;
+                                }
+
+                                @keyframes bmove {
+                                    0% {top: 0px};
+                                    60% {top: 60px; background-color: tomato};
+                                    100% {top: 0px};
+
+                                    
+                                }
+
+                            }
+                        }
+                        
+                    }
+                }
+//profile ends
+
+            main{
+
+//about me starts
+                .container-fluid{
+                    .about{
+                        padding-bottom: 20%;
+                        
+                        .photo{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-bottom: 20px;
+                            img{
+                                width: 200px;
+                                border: 3px solid orange;
+                                border-radius: 50%;
+                                
+                            }
+                        }
+
+
+                        .detail{
+
+                            .addr{
+                                .cv{
+                                    padding: 20px;
+                                    a{
+                                        button{
+                                            padding: 12px;
+                                            font-size: 20px;
+                                            width: 100%;
+                                            background-color: orange;
+                                        }
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+
+                    padding-top: 80px;
+                    background-image: url("image/wave1.png");
+                    background-repeat: no-repeat;
+                    background-position: bottom;
+                    background-size: 100%;
+                    
+
+                }
+
+//about me ends
+
+
+//education starts
+
+                .edu{
+                    margin-top: -2px;
+                    padding-bottom: 115px;
+                    padding-top: 70px;
+                    color: black;
+                    .container{
+
+                        .title{
+                            padding-bottom: 20px;
+                                                     
+                        }
+
+                        .detail{
+                            .skill-container{
+                                margin-top: -30px;
+                                margin-left: -30px;
+                            }
+                            
+                            
+                            .skill-container li{
+                                list-style-type: none;
+                                margin: 40px 0;
+                                font-weight: bold;
+                                text-transform: uppercase;
+                                position: relative;
+                                margin-bottom: 50px;
+                            }
+                            
+                            .skill-container li::before{
+                                content: '';
+                                position: absolute;
+                                top: calc(100% + 5px);
+                            
+                                background-color: black;
+                                width: 100%;
+                                height: 30px;
+                                border-radius: 5px;
+                            }
+                            
+                            
+                            
+                            .skill-container li::after{
+                                content: '';
+                                position: absolute;
+                                top: calc(100% + 5px);
+                                left: 0;
+                            
+                                background-color: rgb(82, 114, 82);
+                                width: 0;
+                                height: 30px;
+                                border-radius: 5px;
+                            
+                                animation-duration: 2s;
+                                animation-timing-function: linear;
+                                animation-direction: forwards;
+                                animation-fill-mode: forwards;
+                            }
+                            
+                            .skill-container li.html::after{
+                                animation-name: html;
+                            }
+                            .skill-container li.css::after{
+                                animation-name: css;
+                            }
+                            .skill-container li.js::after{
+                                animation-name: js;
+                            }
+                            .skill-container li.py::after{
+                                animation-name: py;
+                            }
+                            .skill-container li.c::after{
+                                animation-name: c;
+                            }
+                            .skill-container li.java::after{
+                                animation-name: java;
+                            }
+                            
+                            
+                            
+                            @keyframes html{
+                                to{
+                                    width: 80%;
+                                    background-color: rgb(156, 55, 55);
+                                }
+                            }
+                            
+                            @keyframes css{
+                                to{
+                                    width: 70%;
+                                    background-color: rgb(190, 138, 42);
+                                }
+                            }
+                            @keyframes js{
+                                to{
+                                    width: 10%;
+                                    background-color: rgb(78, 110, 30);
+                                }
+                            }
+                            @keyframes py{
+                                to{
+                                    width: 60%;
+                                    background-color: rgb(4, 114, 32);
+                                }
+                            }
+                            @keyframes c{
+                                to{
+                                    width: 90%;
+                                    background-color: rgb(170, 46, 46);
+                                }
+                            }
+                            @keyframes java{
+                                to{
+                                    width: 60%;
+                                    background-color: rgb(4, 114, 32);
+                                }
+                            }
+                            
+                            .skill-card::after{
+                                content: '';
+                                clear: both;
+                                display: table;
+                            }
+                            
+                            
+                            
+                            
+                        }
+                        
+                    }
+                }
+
+//education ends
+
+
+
+//works starts
+
+                .works{
+                    background-image: url("image/wave2.png");
+                    background-repeat: no-repeat;
+                    background-position: top;
+                    background-size: 100%;
+                    padding-top: 150px;
+                    padding-bottom: 60px;
+
+
+                    
+                }
+
+
+//works ends
+
+
+//testimonials starts
+
+                .testimonials{
+                    
+                    .container{
+                        background-color: rgba($color: #000000, $alpha: .4);
+                        border-radius: 10px;
+                        .row{
+                            .carousel{
+                                .carousel-inner{
+                                    padding: 10%;
+                                    .carousel-item{
+
+                                        .blockquote{
+                                            color: white;
+                                        }
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+//testimonials ends
+
+
+//contact starts
+                #contact{
+
+                    padding-bottom: 40px;
+
+                    color: white;
+                    .row{
+                        .social{
+        
+                            
+        
+                           a{
+                               margin: 20px;
+                               .fa-facebook-f{
+        
+                                    color: #0570E6;
+                                    font-size: 40px;
+                                    width: 60px;
+                                    background: rgb(255, 255, 255);
+                                    padding: 10px;
+                                    border-radius: 50px;
+                                    margin-top: 20px;
+        
+                                   
+                                }
+        
+                               .fa-twitter{
+        
+                                color: #5DA9DD;
+                                font-size: 40px;
+                                width: 60px;
+                                background: rgb(255, 255, 255);
+                                padding: 10px;
+                                border-radius: 50px;
+                                margin-top: 20px;
+                               
+                                }
+        
+                                .fa-youtube{
+        
+                                    color: red;
+                                    font-size: 40px;
+                                    width: 60px;
+                                    background: rgb(255, 255, 255);
+                                    padding: 10px;
+                                    border-radius: 50px;
+                                    text-align: center;
+                                    margin-top: 20px;
+                                   
+                                }
+        
+                                .fa-linkedin-in{
+        
+                                    color: #0077B5;
+                                    font-size: 40px;
+                                    width: 60px;
+                                    background: rgb(255, 255, 255);
+                                    padding: 10px;
+                                    border-radius: 50px;
+                                    margin-top: 20px;
+                                   
+                                }
+
+                                .fa-github{
+        
+                                    color: rgb(61, 25, 25);
+                                    font-size: 40px;
+                                    width: 60px;
+                                    background: rgb(255, 255, 255);
+                                    padding: 10px;
+                                    border-radius: 50px;
+                                    text-align: center;
+                                    margin-top: 20px;
+                                   
+                                }
+        
+         
+                                &:hover{
+                                    opacity: .6;
+                                 }
+                            }
+                            
+                           
+        
+                           
+                            
+                            
+        
+                            
+        
+                        }
+        
+                    }
+                        
+        
+                }
+
+//contact ends
+
+
+
+            }
+        
+    }
+
+}
+
+
+

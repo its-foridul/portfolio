@@ -1,0 +1,49 @@
+@media screen and(max-width: 600px) {
+
+    .container-fluid{
+        .about{
+            padding-bottom: 190px;
+            padding-top: 0px;
+            .photo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+                img{
+                    width: 200px;
+                    border: 3px solid orange;
+                    border-radius: 50%;
+                    
+                }
+            }
+
+
+            .detail{
+
+                .addr{
+                    .cv{
+                        padding: 20px;
+                        a{
+                            button{
+                                padding: 12px;
+                                font-size: 20px;
+                                width: 100%;
+                                background-color: orange;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+
+        padding-top: 80px;
+        background-image: url("image/wave1.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        
+
+    }
+    
+}

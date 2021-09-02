@@ -1,0 +1,501 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hr1 {
+  border-top: 9px solid orange;
+  width: 40%;
+  background: transparent;
+}
+
+.img-out {
+  width: 200px;
+  border: 3px solid orange;
+  border-radius: 50%;
+}
+
+body .container1 {
+  background-image: url("image/bglip.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body .container1 header {
+  background-image: url("image/bglip.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+body .container1 header nav {
+  background: transparent;
+}
+
+body .container1 header nav .container {
+  background: transparent;
+}
+
+body .container1 header nav .container .navbutt {
+  margin-left: auto;
+  background-color: black;
+}
+
+body .container1 header nav .container .navbutt i {
+  color: orange;
+}
+
+body .container1 header nav .container .navbar-collapse {
+  background: transparent;
+}
+
+body .container1 header nav .container .navbar-collapse ul {
+  background: transparent;
+  margin: auto;
+}
+
+body .container1 header nav .container .navbar-collapse ul li {
+  width: 50%;
+  margin-left: auto;
+}
+
+body .container1 header nav .container .navbar-collapse ul li a {
+  text-align: right;
+  width: 100%;
+  color: orange;
+  padding: 10px 25px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+body .container1 header nav .container .navbar-collapse ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+}
+
+body .container1 header .pro .profile {
+  margin-top: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container1 header .pro .profile .profile-sec .imag {
+  text-align: center;
+}
+
+body .container1 header .pro .profile .profile-sec .imag img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+body .container1 header .pro .profile .profile-sec .name {
+  text-align: center;
+  color: white;
+}
+
+body .container1 header .pro .profile .profile-sec .name h2 {
+  text-shadow: 1.5px 1.5px 3px orange;
+  color: white;
+}
+
+body .container1 header .pro .profile .profile-sec .name p {
+  text-shadow: 0 0 2px 2px white;
+}
+
+body .container1 header .social .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container1 header .social .links a .fab {
+  color: blanchedalmond;
+  padding: 10px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+body .container1 header .social .links a .fab:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: orange;
+}
+
+body .container1 header .arrowdown {
+  margin-top: 180px;
+}
+
+body .container1 header .arrowdown a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container1 header .arrowdown a i {
+  background-color: orange;
+  padding: 10px;
+  color: black;
+  border-radius: 50%;
+  position: relative;
+  -webkit-animation: bmove 2s 5;
+          animation: bmove 2s 5;
+}
+
+body .container1 header .arrowdown a i:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes bmove {
+  0% {
+    top: 0px;
+  }
+  60% {
+    top: 60px;
+    background-color: tomato;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes bmove {
+  0% {
+    top: 0px;
+  }
+  60% {
+    top: 60px;
+    background-color: tomato;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+body .container1 main .container-fluid {
+  padding-top: 80px;
+  background-image: url("image/wave1.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+
+body .container1 main .container-fluid .about {
+  padding-bottom: 20%;
+}
+
+body .container1 main .container-fluid .about .photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+body .container1 main .container-fluid .about .photo img {
+  width: 200px;
+  border: 3px solid orange;
+  border-radius: 50%;
+}
+
+body .container1 main .container-fluid .about .detail .addr .cv {
+  padding: 20px;
+}
+
+body .container1 main .container-fluid .about .detail .addr .cv a button {
+  padding: 12px;
+  font-size: 20px;
+  width: 100%;
+  background-color: orange;
+}
+
+body .container1 main .edu {
+  margin-top: -2px;
+  padding-bottom: 115px;
+  padding-top: 70px;
+  color: black;
+}
+
+body .container1 main .edu .container .title {
+  padding-bottom: 20px;
+}
+
+body .container1 main .edu .container .detail .skill-container {
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+body .container1 main .edu .container .detail .skill-container li {
+  list-style-type: none;
+  margin: 40px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+body .container1 main .edu .container .detail .skill-container li::before {
+  content: '';
+  position: absolute;
+  top: calc(100% + 5px);
+  background-color: black;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+body .container1 main .edu .container .detail .skill-container li::after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background-color: #527252;
+  width: 0;
+  height: 30px;
+  border-radius: 5px;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-direction: forwards;
+          animation-direction: forwards;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+body .container1 main .edu .container .detail .skill-container li.html::after {
+  -webkit-animation-name: html;
+          animation-name: html;
+}
+
+body .container1 main .edu .container .detail .skill-container li.css::after {
+  -webkit-animation-name: css;
+          animation-name: css;
+}
+
+body .container1 main .edu .container .detail .skill-container li.js::after {
+  -webkit-animation-name: js;
+          animation-name: js;
+}
+
+body .container1 main .edu .container .detail .skill-container li.py::after {
+  -webkit-animation-name: py;
+          animation-name: py;
+}
+
+body .container1 main .edu .container .detail .skill-container li.c::after {
+  -webkit-animation-name: c;
+          animation-name: c;
+}
+
+body .container1 main .edu .container .detail .skill-container li.java::after {
+  -webkit-animation-name: java;
+          animation-name: java;
+}
+
+@-webkit-keyframes html {
+  to {
+    width: 80%;
+    background-color: #9c3737;
+  }
+}
+
+@keyframes html {
+  to {
+    width: 80%;
+    background-color: #9c3737;
+  }
+}
+
+@-webkit-keyframes css {
+  to {
+    width: 70%;
+    background-color: #be8a2a;
+  }
+}
+
+@keyframes css {
+  to {
+    width: 70%;
+    background-color: #be8a2a;
+  }
+}
+
+@-webkit-keyframes js {
+  to {
+    width: 10%;
+    background-color: #4e6e1e;
+  }
+}
+
+@keyframes js {
+  to {
+    width: 10%;
+    background-color: #4e6e1e;
+  }
+}
+
+@-webkit-keyframes py {
+  to {
+    width: 60%;
+    background-color: #047220;
+  }
+}
+
+@keyframes py {
+  to {
+    width: 60%;
+    background-color: #047220;
+  }
+}
+
+@-webkit-keyframes c {
+  to {
+    width: 90%;
+    background-color: #aa2e2e;
+  }
+}
+
+@keyframes c {
+  to {
+    width: 90%;
+    background-color: #aa2e2e;
+  }
+}
+
+@-webkit-keyframes java {
+  to {
+    width: 60%;
+    background-color: #047220;
+  }
+}
+
+@keyframes java {
+  to {
+    width: 60%;
+    background-color: #047220;
+  }
+}
+
+body .container1 main .edu .container .detail .skill-card::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+body .container1 main .works {
+  background-image: url("image/wave2.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+
+body .container1 main .testimonials .container {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+body .container1 main .testimonials .container .row .carousel .carousel-inner {
+  padding: 10%;
+}
+
+body .container1 main .testimonials .container .row .carousel .carousel-inner .carousel-item .blockquote {
+  color: white;
+}
+
+body .container1 main #contact {
+  padding-bottom: 40px;
+  color: white;
+}
+
+body .container1 main #contact .row .social a {
+  margin: 20px;
+}
+
+body .container1 main #contact .row .social a .fa-facebook-f {
+  color: #0570E6;
+  font-size: 40px;
+  width: 60px;
+  background: white;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+body .container1 main #contact .row .social a .fa-twitter {
+  color: #5DA9DD;
+  font-size: 40px;
+  width: 60px;
+  background: white;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+body .container1 main #contact .row .social a .fa-youtube {
+  color: red;
+  font-size: 40px;
+  width: 60px;
+  background: white;
+  padding: 10px;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+body .container1 main #contact .row .social a .fa-linkedin-in {
+  color: #0077B5;
+  font-size: 40px;
+  width: 60px;
+  background: white;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+body .container1 main #contact .row .social a .fa-github {
+  color: #3d1919;
+  font-size: 40px;
+  width: 60px;
+  background: white;
+  padding: 10px;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+body .container1 main #contact .row .social a:hover {
+  opacity: .6;
+}
+/*# sourceMappingURL=style.css.map */
